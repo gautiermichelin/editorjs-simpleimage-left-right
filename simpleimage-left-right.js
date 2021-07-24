@@ -6,13 +6,15 @@
  * @property {string} url - image source URL
  * @property {string} caption - image caption
  * @property {boolean} withBorder - flag for adding a border
- * @property {boolean} withBackground - flag for adding a background
+ * @property {boolean} floatLeft - flag for floating div on left
+ * @property {boolean} floatRight - flag for floating div on right
+ * @property {boolean} withBackground - flag for adding a background 
  * @property {boolean} stretched - flag for stretching image to the full width of content
  *
  * @typedef {object} ImageToolConfig
  * @property {string} placeholder — custom placeholder for URL field
  */
-class SimpleImage {
+class SimpleImageLeftRight {
   /**
    * Our tool should be placed at the Toolbox, so describe an icon and title
    */
